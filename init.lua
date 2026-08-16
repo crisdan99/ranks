@@ -154,6 +154,7 @@ function ranks.chat_send(name, message)
 				local colour = get_colour(def.colour)
 				local prefix = minetest.colorize(colour, def.prefix)
 				minetest.chat_send_all(prefix.." <"..name.."> "..message)
+				minetest.log("action", "CHAT: " .. def.prefix .. " <" .. name .. "> " .. message)
 				return true
 			end
 		end
@@ -166,7 +167,7 @@ minetest.register_privilege("rank", {
 	give_to_singleplayer = false,
 })
 
--- 🔥 Join player (Owner message agregado)
+-- Join player (Owner message agregado)
 minetest.register_on_joinplayer(function(player)
 	local name = player:get_player_name()
 	local rank = ranks.get_rank(name)
@@ -189,7 +190,7 @@ minetest.register_on_joinplayer(function(player)
 	end
 end)
 
--- 🔥 Leave player (Owner message)
+-- Leave player (Owner message)
 minetest.register_on_leaveplayer(function(player)
 	local name = player:get_player_name()
 	local rank = ranks.get_rank(name)
