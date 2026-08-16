@@ -156,9 +156,9 @@ function ranks.chat_send(name, message)
 				minetest.chat_send_all(prefix.." <"..name.."> "..message)
 				minetest.log("action", "CHAT: " .. def.prefix .. " <" .. name .. "> " .. message)
 
-				if minetest.get_modpath("chat_history") then
-					chat_history.add_message(name, nil, message)
-				end
+				-- if minetest.get_modpath("chat_history") then
+					-- chat_history.add_message(name, nil, message)
+				-- end
 
 				return true
 			end
