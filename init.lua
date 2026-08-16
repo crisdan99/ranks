@@ -155,6 +155,11 @@ function ranks.chat_send(name, message)
 				local prefix = minetest.colorize(colour, def.prefix)
 				minetest.chat_send_all(prefix.." <"..name.."> "..message)
 				minetest.log("action", "CHAT: " .. def.prefix .. " <" .. name .. "> " .. message)
+
+				if minetest.get_modpath("chat_history") then
+					chat_history.add_message(name, nil, message)
+				end
+
 				return true
 			end
 		end
@@ -196,11 +201,7 @@ minetest.register_on_leaveplayer(function(player)
 	local rank = ranks.get_rank(name)
 
 	if rank == "owner" then
-		minetest.chat_send_all(
-			minetest.colorize("#FF5555",
-				"*** " .. name .. " (Owner) left the game."
-			)
-		)
+		minetest.chat_send_all(minetest.colorize("#FF5555", "*** " .. name .. " (Owner) left the game.") )
 	end
 end)
 
