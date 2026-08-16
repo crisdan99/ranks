@@ -1,7 +1,7 @@
 -- OWNER
 ranks.register("owner", {
 	prefix = "Owner",
-	colour = "#000000",
+	colour = "#B500B5",
 	privs = {
 		interact = true,
 		shout = true,
@@ -50,7 +50,7 @@ ranks.register("staff", {
 		interact = true,
 		shout = true,
 		kick = true,
-		rank = true, 
+		rank = true,
 	},
 })
 
@@ -63,43 +63,43 @@ local builder_privs = {
 -- BUILDER
 ranks.register("builder1", {
 	prefix = "Build 1",
-	colour = "#90EE90", 
+	colour = "#90EE90",
 	privs = builder_privs
 })
 
 ranks.register("builder2", {
 	prefix = "Build 2",
-	colour = "#FFA500", 
+	colour = "#FFA500",
 	privs = builder_privs
 })
 
 ranks.register("builder3", {
 	prefix = "Build 3",
-	colour = "#8B4513", 
+	colour = "#8B4513",
 	privs = builder_privs
 })
 
 ranks.register("builder4", {
 	prefix = "Build 4",
-	colour = "#800080", 
+	colour = "#800080",
 	privs = builder_privs
 })
 
 ranks.register("builder5", {
 	prefix = "Build 5",
-	colour = "#00FFFF", 
+	colour = "#00FFFF",
 	privs = builder_privs
 })
 
 ranks.register("builder6", {
 	prefix = "Build 6",
-	colour = "#98FF98", 
+	colour = "#98FF98",
 	privs = builder_privs
 })
 
 ranks.register("builder7", {
 	prefix = "Build 7",
-	colour = "#FFFF00", 
+	colour = "#FFFF00",
 	privs = builder_privs
 })
 
@@ -111,13 +111,13 @@ ranks.register("builder8", {
 
 ranks.register("builder9", {
 	prefix = "Build 9",
-	colour = "#FFD700", 
+	colour = "#FFD700",
 	privs = builder_privs
 })
 
 ranks.register("builder10", {
 	prefix = "Build 10",
-	colour = "#808080", 
+	colour = "#808080",
 	privs = {
 		interact = true,
 		shout = true,
