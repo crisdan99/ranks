@@ -1,17 +1,18 @@
 -- ranks/init.lua
+local S = core.get_translator("ranks")
 
 ranks = {}
 
-local chat3_exists = minetest.get_modpath("chat3")
+local chat3_exists = core.get_modpath("chat3")
 local registered   = {}
 local default
 
-local storage = minetest.get_mod_storage()
+local storage = core.get_mod_storage()
 
 -- Get colour
 local function get_colour(colour)
-	if type(colour) == "table" and minetest.rgba then
-		return minetest.rgba(colour.r, colour.g, colour.b, colour.a)
+	if type(colour) == "table" and core.rgba then
+		return core.rgba(colour.r, colour.g, colour.b, colour.a)
 	elseif type(colour) == "string" then
 		return colour
 	else
@@ -51,7 +52,7 @@ end
 -- Get player rank
 function ranks.get_rank(name)
 	if type(name) ~= "string" then
-		name = minetest.get_player_by_name(name)
+		name = core.get_player_by_name(name)
 	end
 
 	local rank = storage:get_string(name)
@@ -78,31 +79,31 @@ function ranks.update_privs(name, trigger)
 		local def = registered[rank]
 		if not def.privs then return end
 
-		local privs = minetest.get_player_privs(name)
+		local privs = core.get_player_privs(name)
 
 		for priv, val in pairs(def.privs) do
 			privs[priv] = val
 		end
 
-		minetest.set_player_privs(name, privs)
+		core.set_player_privs(name, privs)
 		return true
 	end
 end
 
 -- Update nametag
 function ranks.update_nametag(name)
-	if minetest.settings:get("ranks.prefix_nametag") == "false" then
+	if core.settings:get("ranks.prefix_nametag") == "false" then
 		return
 	end
 
-	local player = minetest.get_player_by_name(name)
+	local player = core.get_player_by_name(name)
 	if not player then return end
 
 	local rank = ranks.get_rank(name)
 	if rank ~= nil then
 		local def    = ranks.get_def(rank)
 		local colour = get_colour(def.colour)
-		local prefix = def.prefix and minetest.colorize(colour, def.prefix).." " or ""
+		local prefix = def.prefix and core.colorize(colour, def.prefix).." " or ""
 
 		player:set_nametag_attributes({
 			text = prefix..name,
@@ -115,7 +116,7 @@ function ranks.set_rank(name, rank)
 		name = name:get_player_name()
 	end
 
-	if registered[rank] and minetest.player_exists(name) then
+	if registered[rank] and core.player_exists(name) then
 		local old_rank = ranks.get_rank(name)
 
 		storage:set_string(name, rank)
@@ -124,11 +125,7 @@ function ranks.set_rank(name, rank)
 		ranks.update_privs(name)
 
 		if old_rank ~= rank then
-			minetest.chat_send_all(
-				minetest.colorize("#00FF00",
-					"Player " .. name .. " was promoted to " .. rank .. ". Congratulations!"
-				)
-			)
+			core.chat_send_all(core.colorize("#00FF00", S("Player @1 was promoted to @2. Congratulations!", name, rank) ) )
 		end
 
 		return true
@@ -146,17 +143,17 @@ end
 
 -- Chat prefix
 function ranks.chat_send(name, message)
-	if minetest.settings:get("ranks.prefix_chat") ~= "false" then
+	if core.settings:get("ranks.prefix_chat") ~= "false" then
 		local rank = ranks.get_rank(name)
 		if rank ~= nil then
 			local def = ranks.get_def(rank)
 			if def.prefix then
 				local colour = get_colour(def.colour)
-				local prefix = minetest.colorize(colour, def.prefix)
-				minetest.chat_send_all(prefix.." <"..name.."> "..message)
-				minetest.log("action", "CHAT: " .. def.prefix .. " <" .. name .. "> " .. message)
+				local prefix = core.colorize(colour, def.prefix)
+				core.chat_send_all(prefix.." <"..name.."> "..message)
+				core.log("action", "CHAT: " .. def.prefix .. " <" .. name .. "> " .. message)
 
-				-- if minetest.get_modpath("chat_history") then
+				-- if core.get_modpath("chat_history") then
 					-- chat_history.add_message(name, nil, message)
 				-- end
 
@@ -167,22 +164,18 @@ function ranks.chat_send(name, message)
 end
 
 -- Privilege
-minetest.register_privilege("rank", {
-	description = "Permission to use /rank chatcommand",
+core.register_privilege("rank", {
+	description = S("Permission to use /rank chatcommand"),
 	give_to_singleplayer = false,
 })
 
 -- Join player (Owner message agregado)
-minetest.register_on_joinplayer(function(player)
+core.register_on_joinplayer(function(player)
 	local name = player:get_player_name()
 	local rank = ranks.get_rank(name)
 
 	if rank == "owner" then
-		minetest.chat_send_all(
-			minetest.colorize("#FFD700",
-				"*** " .. name .. " (Owner) joined the game."
-			)
-		)
+		core.chat_send_all(core.colorize("#FFD700", S("*** @1 (Owner) joined the game.", name) ) )
 	end
 
 	if ranks.get_rank(name) then
@@ -196,24 +189,24 @@ minetest.register_on_joinplayer(function(player)
 end)
 
 -- Leave player (Owner message)
-minetest.register_on_leaveplayer(function(player)
+core.register_on_leaveplayer(function(player)
 	local name = player:get_player_name()
 	local rank = ranks.get_rank(name)
 
 	if rank == "owner" then
-		minetest.chat_send_all(minetest.colorize("#FF5555", "*** " .. name .. " (Owner) left the game.") )
+		core.chat_send_all(core.colorize("#FF5555", S("*** @1 (Owner) left the game.", name) ) )
 	end
 end)
 
 -- Chat override
-minetest.register_on_chat_message(function(name, message)
+core.register_on_chat_message(function(name, message)
 	return ranks.chat_send(name, message)
 end)
 
 -- Chatcommand /rank
-minetest.register_chatcommand("rank", {
-	description = "Set a player's rank",
-	params = "<player> <new rank>",
+core.register_chatcommand("rank", {
+	description = S("Set a player's rank"),
+	params = S("<player> <new rank>"),
 	privs = {rank = true},
 	func = function(name, param)
 		local param = param:split(" ")
@@ -221,24 +214,24 @@ minetest.register_chatcommand("rank", {
 		if #param == 2 then
 			if ranks.get_def(param[2]) then
 				ranks.set_rank(param[1], param[2])
-				return true, "Set "..param[1].."'s rank to "..param[2]
+				return true, S("Set @1's rank to @2", param[1], param[2])
 			else
-				return false, "Invalid rank"
+				return false, S("Invalid rank")
 			end
 		end
 
-		return false, "Usage: /rank <player> <rank>"
+		return false, S("Usage: /rank <player> <rank>")
 	end,
 })
 
 -- Load default ranks
-dofile(minetest.get_modpath("ranks").."/ranks.lua")
+dofile(core.get_modpath("ranks").."/ranks.lua")
 
-local old_ban = minetest.registered_chatcommands["ban"].func
+local old_ban = core.registered_chatcommands["ban"].func
 
-minetest.registered_chatcommands["ban"].func = function(name, param)
+core.registered_chatcommands["ban"].func = function(name, param)
 	if ranks.get_rank(param) == "owner" then
-		return false, "You cannot ban the Owner."
+		return false, S("You cannot ban the Owner.")
 	end
 	return old_ban(name, param)
 end

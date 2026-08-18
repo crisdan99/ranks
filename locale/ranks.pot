@@ -1,0 +1,71 @@
+msgid "Owner"
+msgstr ""
+
+msgid "Moderator"
+msgstr ""
+
+msgid "Guardian"
+msgstr ""
+
+msgid "Staff"
+msgstr ""
+
+msgid "Build 1"
+msgstr ""
+
+msgid "Build 2"
+msgstr ""
+
+msgid "Build 3"
+msgstr ""
+
+msgid "Build 4"
+msgstr ""
+
+msgid "Build 5"
+msgstr ""
+
+msgid "Build 6"
+msgstr ""
+
+msgid "Build 7"
+msgstr ""
+
+msgid "Build 8"
+msgstr ""
+
+msgid "Build 9"
+msgstr ""
+
+msgid "Build 10"
+msgstr ""
+
+msgid "Permission to use /rank chatcommand"
+msgstr ""
+
+msgid "Set a player's rank"
+msgstr ""
+
+msgid "<player> <new rank>"
+msgstr ""
+
+msgid "Set @1's rank to @2"
+msgstr ""
+
+msgid "Invalid rank"
+msgstr ""
+
+msgid "Usage: /rank <player> <rank>"
+msgstr ""
+
+msgid "Player @1 was promoted to @2. Congratulations!"
+msgstr ""
+
+msgid "*** @1 (Owner) joined the game."
+msgstr ""
+
+msgid "*** @1 (Owner) left the game."
+msgstr ""
+
+msgid "You cannot ban the Owner."
+msgstr ""

@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Owner"
+msgstr "Владелец"
+
+msgid "Moderator"
+msgstr "Модератор"
+
+msgid "Guardian"
+msgstr "Страж"
+
+msgid "Staff"
+msgstr "Персонал"
+
+msgid "Build 1"
+msgstr "Строитель 1"
+
+msgid "Build 2"
+msgstr "Строитель 2"
+
+msgid "Build 3"
+msgstr "Строитель 3"
+
+msgid "Build 4"
+msgstr "Строитель 4"
+
+msgid "Build 5"
+msgstr "Строитель 5"
+
+msgid "Build 6"
+msgstr "Строитель 6"
+
+msgid "Build 7"
+msgstr "Строитель 7"
+
+msgid "Build 8"
+msgstr "Строитель 8"
+
+msgid "Build 9"
+msgstr "Строитель 9"
+
+msgid "Build 10"
+msgstr "Строитель 10"
+
+msgid "Permission to use /rank chatcommand"
+msgstr "Разрешение использовать чат-команду /rank"
+
+msgid "Set a player's rank"
+msgstr "Установить ранг игрока"
+
+msgid "<player> <new rank>"
+msgstr "<игрок> <новый ранг>"
+
+msgid "Set @1's rank to @2"
+msgstr "Установить ранг игрока @1 на «@2»"
+
+msgid "Invalid rank"
+msgstr "Недопустимый ранг"
+
+msgid "Usage: /rank <player> <rank>"
+msgstr "Использование: /rank <игрок> <ранг>"
+
+msgid "Player @1 was promoted to @2. Congratulations!"
+msgstr "Игрок @1 повышен до ранга «@2». Поздравляем!"
+
+msgid "*** @1 (Owner) joined the game."
+msgstr "*** @1 (Владелец) присоединился к игре."
+
+msgid "*** @1 (Owner) left the game."
+msgstr "*** @1 (Владелец) вышел из игры."
+
+msgid "You cannot ban the Owner."
+msgstr "Вы не можете забанить владельца."

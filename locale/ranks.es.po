@@ -1,0 +1,71 @@
+msgid "Owner"
+msgstr "Propietario"
+
+msgid "Moderator"
+msgstr "Moderador"
+
+msgid "Guardian"
+msgstr "Guardián"
+
+msgid "Staff"
+msgstr "Personal"
+
+msgid "Build 1"
+msgstr "Construcción 1"
+
+msgid "Build 2"
+msgstr "Construcción 2"
+
+msgid "Build 3"
+msgstr "Construcción 3"
+
+msgid "Build 4"
+msgstr "Construcción 4"
+
+msgid "Build 5"
+msgstr "Construcción 5"
+
+msgid "Build 6"
+msgstr "Construcción 6"
+
+msgid "Build 7"
+msgstr "Construcción 7"
+
+msgid "Build 8"
+msgstr "Construcción 8"
+
+msgid "Build 9"
+msgstr "Construcción 9"
+
+msgid "Build 10"
+msgstr "Construcción 10"
+
+msgid "Permission to use /rank chatcommand"
+msgstr "Permiso para usar el comando de chat /rank"
+
+msgid "Set a player's rank"
+msgstr "Establecer el rango de un jugador"
+
+msgid "<player> <new rank>"
+msgstr "<jugador> <nuevo rango>"
+
+msgid "Set @1's rank to @2"
+msgstr "Establecer el rango de @1 a @2"
+
+msgid "Invalid rank"
+msgstr "Rango no válido"
+
+msgid "Usage: /rank <player> <rank>"
+msgstr "Uso: /rank <jugador> <rango>"
+
+msgid "Player @1 was promoted to @2. Congratulations!"
+msgstr "El jugador @1 ha sido ascendido a @2. ¡Felicidades!"
+
+msgid "*** @1 (Owner) joined the game."
+msgstr "*** @1 (Propietario) entró al juego."
+
+msgid "*** @1 (Owner) left the game."
+msgstr "*** @1 (Propietario) salió del juego."
+
+msgid "You cannot ban the Owner."
+msgstr "No puedes expulsar al Propietario."
