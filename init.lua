@@ -1,5 +1,5 @@
 -- ranks/init.lua
-local S = core.get_translator("ranks")
+local S = core.get_translator(core.get_current_modname())
 
 ranks = {}
 
@@ -147,11 +147,12 @@ function ranks.chat_send(name, message)
 		local rank = ranks.get_rank(name)
 		if rank ~= nil then
 			local def = ranks.get_def(rank)
-			if def.prefix then
+			if def.prefix and def.prefix_text then
 				local colour = get_colour(def.colour)
 				local prefix = core.colorize(colour, def.prefix)
+				local log_prefix = def.prefix_text
 				core.chat_send_all(prefix.." <"..name.."> "..message)
-				core.log("action", "CHAT: " .. def.prefix .. " <" .. name .. "> " .. message)
+				core.log("action", "CHAT: " .. log_prefix .. " <" .. name .. "> " .. message)
 
 				-- if core.get_modpath("chat_history") then
 					-- chat_history.add_message(name, nil, message)
