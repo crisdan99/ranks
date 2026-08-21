@@ -1,77 +1,78 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ranks\n"
+"Language: pt\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Owner"
-msgstr ""
+msgstr "Dono"
 
 msgid "Moderator"
-msgstr ""
+msgstr "Moderador"
 
 msgid "Guardian"
-msgstr ""
+msgstr "Guardião"
 
 msgid "Staff"
-msgstr ""
+msgstr "Equipe"
 
 msgid "Build 1"
-msgstr ""
+msgstr "Construção 1"
 
 msgid "Build 2"
-msgstr ""
+msgstr "Construção 2"
 
 msgid "Build 3"
-msgstr ""
+msgstr "Construção 3"
 
 msgid "Build 4"
-msgstr ""
+msgstr "Construção 4"
 
 msgid "Build 5"
-msgstr ""
+msgstr "Construção 5"
 
 msgid "Build 6"
-msgstr ""
+msgstr "Construção 6"
 
 msgid "Build 7"
-msgstr ""
+msgstr "Construção 7"
 
 msgid "Build 8"
-msgstr ""
+msgstr "Construção 8"
 
 msgid "Build 9"
-msgstr ""
+msgstr "Construção 9"
 
 msgid "Build 10"
-msgstr ""
+msgstr "Construção 10"
 
 msgid "Permission to use /rank chatcommand"
-msgstr ""
+msgstr "Permissão para usar o comando de chat /rank"
 
 msgid "Set a player's rank"
-msgstr ""
+msgstr "Definir o cargo de um jogador"
 
 msgid "<player> <new rank>"
-msgstr ""
+msgstr "<jogador> <novo cargo>"
 
 msgid "Set @1's rank to @2"
-msgstr ""
+msgstr "Definir o cargo de @1 como @2"
 
 msgid "Invalid rank"
-msgstr ""
+msgstr "Cargo inválido"
 
 msgid "Usage: /rank <player> <rank>"
-msgstr ""
+msgstr "Uso: /rank <jogador> <cargo>"
 
 msgid "Player @1 was promoted to @2. Congratulations!"
-msgstr ""
+msgstr "O jogador @1 foi promovido a @2. Parabéns!"
 
 msgid "*** @1 (Owner) joined the game."
-msgstr ""
+msgstr "*** @1 (Dono) entrou no jogo."
 
 msgid "*** @1 (Owner) left the game."
-msgstr ""
+msgstr "*** @1 (Dono) saiu do jogo."
 
 msgid "You cannot ban the Owner."
-msgstr ""
+msgstr "Você não pode banir o Dono."
