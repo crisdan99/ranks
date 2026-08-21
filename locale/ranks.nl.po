@@ -15,37 +15,37 @@ msgid "Guardian"
 msgstr "Bewaker"
 
 msgid "Staff"
-msgstr "Team"
+msgstr "Staff"
 
-msgid "Build 1"
-msgstr "Bouwen 1"
+msgid "Builder 1"
+msgstr "Bouwer 1"
 
-msgid "Build 2"
-msgstr "Bouwen 2"
+msgid "Builder 2"
+msgstr "Bouwer 2"
 
-msgid "Build 3"
-msgstr "Bouwen 3"
+msgid "Builder 3"
+msgstr "Bouwer 3"
 
-msgid "Build 4"
-msgstr "Bouwen 4"
+msgid "Builder 4"
+msgstr "Bouwer 4"
 
-msgid "Build 5"
-msgstr "Bouwen 5"
+msgid "Builder 5"
+msgstr "Bouwer 5"
 
-msgid "Build 6"
-msgstr "Bouwen 6"
+msgid "Builder 6"
+msgstr "Bouwer 6"
 
-msgid "Build 7"
-msgstr "Bouwen 7"
+msgid "Builder 7"
+msgstr "Bouwer 7"
 
-msgid "Build 8"
-msgstr "Bouwen 8"
+msgid "Builder 8"
+msgstr "Bouwer 8"
 
-msgid "Build 9"
-msgstr "Bouwen 9"
+msgid "Builder 9"
+msgstr "Bouwer 9"
 
-msgid "Build 10"
-msgstr "Bouwen 10"
+msgid "Builder 10"
+msgstr "Bouwer 10"
 
 msgid "Permission to use /rank chatcommand"
 msgstr "Toestemming om het chatcommando /rank te gebruiken"

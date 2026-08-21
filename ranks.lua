@@ -67,75 +67,71 @@ local builder_privs = {
 
 -- BUILDER
 ranks.register("builder1", {
-	prefix = S("Build 1"),
-	prefix_text = "Build 1",
+	prefix = S("Builder 1"),
+	prefix_text = "Builder 1",
 	colour = "#99FF99", -- light green
 	privs = builder_privs
 })
 
 ranks.register("builder2", {
-	prefix = S("Build 2"),
-	prefix_text = "Build 2",
+	prefix = S("Builder 2"),
+	prefix_text = "Builder 2",
 	colour = "#FFB366", -- light orange
 	privs = builder_privs
 })
 
 ranks.register("builder3", {
-	prefix = S("Build 3"),
-	prefix_text = "Build 3",
+	prefix = S("Builder 3"),
+	prefix_text = "Builder 3",
 	colour = "#D9A066", -- light brown/tan
 	privs = builder_privs
 })
 
 ranks.register("builder4", {
-	prefix = S("Build 4"),
-	prefix_text = "Build 4",
+	prefix = S("Builder 4"),
+	prefix_text = "Builder 4",
 	colour = "#CC99FF", -- light purple
 	privs = builder_privs
 })
 
 ranks.register("builder5", {
-	prefix = S("Build 5"),
-	prefix_text = "Build 5",
+	prefix = S("Builder 5"),
+	prefix_text = "Builder 5",
 	colour = "#66FFFF", -- bright cyan
 	privs = builder_privs
 })
 
 ranks.register("builder6", {
-	prefix = S("Build 6"),
-	prefix_text = "Build 6",
+	prefix = S("Builder 6"),
+	prefix_text = "Builder 6",
 	colour = "#99FFCC", -- mint
 	privs = builder_privs
 })
 
 ranks.register("builder7", {
-	prefix = S("Build 7"),
-	prefix_text = "Build 7",
+	prefix = S("Builder 7"),
+	prefix_text = "Builder 7",
 	colour = "#FFFF66", -- bright yellow
 	privs = builder_privs
 })
 
 ranks.register("builder8", {
-	prefix = S("Build 8"),
-	prefix_text = "Build 8",
+	prefix = S("Builder 8"),
+	prefix_text = "Builder 8",
 	colour = "#FFCC99", -- peach
 	privs = builder_privs
 })
 
 ranks.register("builder9", {
-	prefix = S("Build 9"),
-	prefix_text = "Build 9",
+	prefix = S("Builder 9"),
+	prefix_text = "Builder 9",
 	colour = "#FFE066", -- gold/yellow
 	privs = builder_privs
 })
 
 ranks.register("builder10", {
-	prefix = S("Build 10"),
-	prefix_text = "Build 10",
+	prefix = S("Builder 10"),
+	prefix_text = "Builder 10",
 	colour = "#CCCCCC", -- light gray
-	privs = {
-		interact = true,
-		shout = true,
-		fly = true,
-	}
+	privs = builder_privs
 })

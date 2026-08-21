@@ -17,34 +17,34 @@ msgstr "Охоронець"
 msgid "Staff"
 msgstr "Персонал"
 
-msgid "Build 1"
+msgid "Builder 1"
 msgstr "Будівельник 1"
 
-msgid "Build 2"
+msgid "Builder 2"
 msgstr "Будівельник 2"
 
-msgid "Build 3"
+msgid "Builder 3"
 msgstr "Будівельник 3"
 
-msgid "Build 4"
+msgid "Builder 4"
 msgstr "Будівельник 4"
 
-msgid "Build 5"
+msgid "Builder 5"
 msgstr "Будівельник 5"
 
-msgid "Build 6"
+msgid "Builder 6"
 msgstr "Будівельник 6"
 
-msgid "Build 7"
+msgid "Builder 7"
 msgstr "Будівельник 7"
 
-msgid "Build 8"
+msgid "Builder 8"
 msgstr "Будівельник 8"
 
-msgid "Build 9"
+msgid "Builder 9"
 msgstr "Будівельник 9"
 
-msgid "Build 10"
+msgid "Builder 10"
 msgstr "Будівельник 10"
 
 msgid "Permission to use /rank chatcommand"

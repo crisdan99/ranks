@@ -15,37 +15,37 @@ msgid "Guardian"
 msgstr "Guardián"
 
 msgid "Staff"
-msgstr "Personal"
+msgstr "Staff"
 
-msgid "Build 1"
-msgstr "Construcción 1"
+msgid "Builder 1"
+msgstr "Constructor 1"
 
-msgid "Build 2"
-msgstr "Construcción 2"
+msgid "Builder 2"
+msgstr "Constructor 2"
 
-msgid "Build 3"
-msgstr "Construcción 3"
+msgid "Builder 3"
+msgstr "Constructor 3"
 
-msgid "Build 4"
-msgstr "Construcción 4"
+msgid "Builder 4"
+msgstr "Constructor 4"
 
-msgid "Build 5"
-msgstr "Construcción 5"
+msgid "Builder 5"
+msgstr "Constructor 5"
 
-msgid "Build 6"
-msgstr "Construcción 6"
+msgid "Builder 6"
+msgstr "Constructor 6"
 
-msgid "Build 7"
-msgstr "Construcción 7"
+msgid "Builder 7"
+msgstr "Constructor 7"
 
-msgid "Build 8"
-msgstr "Construcción 8"
+msgid "Builder 8"
+msgstr "Constructor 8"
 
-msgid "Build 9"
-msgstr "Construcción 9"
+msgid "Builder 9"
+msgstr "Constructor 9"
 
-msgid "Build 10"
-msgstr "Construcción 10"
+msgid "Builder 10"
+msgstr "Constructor 10"
 
 msgid "Permission to use /rank chatcommand"
 msgstr "Permiso para usar el comando de chat /rank"

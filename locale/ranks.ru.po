@@ -17,34 +17,34 @@ msgstr "Страж"
 msgid "Staff"
 msgstr "Персонал"
 
-msgid "Build 1"
+msgid "Builder 1"
 msgstr "Строитель 1"
 
-msgid "Build 2"
+msgid "Builder 2"
 msgstr "Строитель 2"
 
-msgid "Build 3"
+msgid "Builder 3"
 msgstr "Строитель 3"
 
-msgid "Build 4"
+msgid "Builder 4"
 msgstr "Строитель 4"
 
-msgid "Build 5"
+msgid "Builder 5"
 msgstr "Строитель 5"
 
-msgid "Build 6"
+msgid "Builder 6"
 msgstr "Строитель 6"
 
-msgid "Build 7"
+msgid "Builder 7"
 msgstr "Строитель 7"
 
-msgid "Build 8"
+msgid "Builder 8"
 msgstr "Строитель 8"
 
-msgid "Build 9"
+msgid "Builder 9"
 msgstr "Строитель 9"
 
-msgid "Build 10"
+msgid "Builder 10"
 msgstr "Строитель 10"
 
 msgid "Permission to use /rank chatcommand"

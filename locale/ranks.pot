@@ -16,34 +16,34 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
-msgid "Build 1"
+msgid "Builder 1"
 msgstr ""
 
-msgid "Build 2"
+msgid "Builder 2"
 msgstr ""
 
-msgid "Build 3"
+msgid "Builder 3"
 msgstr ""
 
-msgid "Build 4"
+msgid "Builder 4"
 msgstr ""
 
-msgid "Build 5"
+msgid "Builder 5"
 msgstr ""
 
-msgid "Build 6"
+msgid "Builder 6"
 msgstr ""
 
-msgid "Build 7"
+msgid "Builder 7"
 msgstr ""
 
-msgid "Build 8"
+msgid "Builder 8"
 msgstr ""
 
-msgid "Build 9"
+msgid "Builder 9"
 msgstr ""
 
-msgid "Build 10"
+msgid "Builder 10"
 msgstr ""
 
 msgid "Permission to use /rank chatcommand"
