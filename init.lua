@@ -200,9 +200,11 @@ core.register_on_leaveplayer(function(player)
 end)
 
 -- Chat override
-core.register_on_chat_message(function(name, message)
-	return ranks.chat_send(name, message)
-end)
+if not core.get_modpath("jc_translate") then
+	core.register_on_chat_message(function(name, message)
+		return ranks.chat_send(name, message)
+	end)
+end
 
 -- Chatcommand /rank
 core.register_chatcommand("rank", {
