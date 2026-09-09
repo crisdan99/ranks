@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ranks\n"
+"Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Owner"
+msgstr "服主"
+
+msgid "Moderator"
+msgstr "管理员"
+
+msgid "Guardian"
+msgstr "守护者"
+
+msgid "Staff"
+msgstr "工作人员"
+
+msgid "Builder 1"
+msgstr "建筑师 1"
+
+msgid "Builder 2"
+msgstr "建筑师 2"
+
+msgid "Builder 3"
+msgstr "建筑师 3"
+
+msgid "Builder 4"
+msgstr "建筑师 4"
+
+msgid "Builder 5"
+msgstr "建筑师 5"
+
+msgid "Builder 6"
+msgstr "建筑师 6"
+
+msgid "Builder 7"
+msgstr "建筑师 7"
+
+msgid "Builder 8"
+msgstr "建筑师 8"
+
+msgid "Builder 9"
+msgstr "建筑师 9"
+
+msgid "Builder 10"
+msgstr "建筑师 10"
+
+msgid "Permission to use /rank chatcommand"
+msgstr "使用 /rank 聊天命令的权限"
+
+msgid "Set a player's rank"
+msgstr "设置玩家的等级"
+
+msgid "<player> <new rank>"
+msgstr "<玩家> <新等级>"
+
+msgid "Set @1's rank to @2"
+msgstr "将 @1 的等级设置为 @2"
+
+msgid "Invalid rank"
+msgstr "无效的等级"
+
+msgid "Usage: /rank <player> <rank>"
+msgstr "用法：/rank <player> <rank>"
+
+msgid "Player @1 was promoted to @2. Congratulations!"
+msgstr "玩家 @1 已晋升为 @2。恭喜！"
+
+msgid "*** @1 (Owner) joined the game."
+msgstr "*** @1（服主）加入了游戏。"
+
+msgid "*** @1 (Owner) left the game."
+msgstr "*** @1（服主）离开了游戏。"
+
+msgid "You cannot ban the Owner."
+msgstr "您不能封禁服主。"

@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ranks\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Owner"
+msgstr "Owner"
+
+msgid "Moderator"
+msgstr "Moderator"
+
+msgid "Guardian"
+msgstr "Guardian"
+
+msgid "Staff"
+msgstr "Staff"
+
+msgid "Builder 1"
+msgstr "Builder 1"
+
+msgid "Builder 2"
+msgstr "Builder 2"
+
+msgid "Builder 3"
+msgstr "Builder 3"
+
+msgid "Builder 4"
+msgstr "Builder 4"
+
+msgid "Builder 5"
+msgstr "Builder 5"
+
+msgid "Builder 6"
+msgstr "Builder 6"
+
+msgid "Builder 7"
+msgstr "Builder 7"
+
+msgid "Builder 8"
+msgstr "Builder 8"
+
+msgid "Builder 9"
+msgstr "Builder 9"
+
+msgid "Builder 10"
+msgstr "Builder 10"
+
+msgid "Permission to use /rank chatcommand"
+msgstr "Permission to use /rank chatcommand"
+
+msgid "Set a player's rank"
+msgstr "Set a player's rank"
+
+msgid "<player> <new rank>"
+msgstr "<player> <new rank>"
+
+msgid "Set @1's rank to @2"
+msgstr "Set @1's rank to @2"
+
+msgid "Invalid rank"
+msgstr "Invalid rank"
+
+msgid "Usage: /rank <player> <rank>"
+msgstr "Usage: /rank <player> <rank>"
+
+msgid "Player @1 was promoted to @2. Congratulations!"
+msgstr "Player @1 was promoted to @2. Congratulations!"
+
+msgid "*** @1 (Owner) joined the game."
+msgstr "*** @1 (Owner) joined the game."
+
+msgid "*** @1 (Owner) left the game."
+msgstr "*** @1 (Owner) left the game."
+
+msgid "You cannot ban the Owner."
+msgstr "You cannot ban the Owner."

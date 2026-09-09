@@ -1,7 +1,11 @@
+-- ranks.lua
+local S = core.get_translator(core.get_current_modname())
+
 -- OWNER
 ranks.register("owner", {
-	prefix = "Owner",
-	colour = "#000000",
+	prefix = S("Owner"),
+	prefix_text = "Owner",
+	colour = "#FF66FF", -- pastel magenta
 	privs = {
 		interact = true,
 		shout = true,
@@ -17,8 +21,9 @@ ranks.register("owner", {
 
 -- MODERATOR
 ranks.register("moderator", {
-	prefix = "Moderator",
-	colour = "#FF0000",
+	prefix = S("Moderator"),
+	prefix_text = "Moderator",
+	colour = "#FF6666", -- pastel red
 	privs = {
 		interact = true,
 		shout = true,
@@ -27,14 +32,14 @@ ranks.register("moderator", {
 		fly = true,
 		fast = true,
 		privs = true,
-
 	},
 })
 
 -- GUARDIAN
 ranks.register("guardian", {
-	prefix = "Guardian",
-	colour = "#0000FF",
+	prefix = S("Guardian"),
+	prefix_text = "Guardian",
+	colour = "#6699FF", -- pastel blue
 	privs = {
 		interact = true,
 		shout = true,
@@ -44,16 +49,16 @@ ranks.register("guardian", {
 
 -- STAFF
 ranks.register("staff", {
-	prefix = "Staff",
-	colour = "#006400",
+	prefix = S("Staff"),
+	prefix_text = "Staff",
+	colour = "#66FF99", -- bright pastel green
 	privs = {
 		interact = true,
 		shout = true,
 		kick = true,
-		rank = true, 
+		rank = true,
 	},
 })
-
 
 local builder_privs = {
 	interact = true,
@@ -62,66 +67,71 @@ local builder_privs = {
 
 -- BUILDER
 ranks.register("builder1", {
-	prefix = "Build 1",
-	colour = "#90EE90", 
+	prefix = S("Builder 1"),
+	prefix_text = "Builder 1",
+	colour = "#99FF99", -- light green
 	privs = builder_privs
 })
 
 ranks.register("builder2", {
-	prefix = "Build 2",
-	colour = "#FFA500", 
+	prefix = S("Builder 2"),
+	prefix_text = "Builder 2",
+	colour = "#FFB366", -- light orange
 	privs = builder_privs
 })
 
 ranks.register("builder3", {
-	prefix = "Build 3",
-	colour = "#8B4513", 
+	prefix = S("Builder 3"),
+	prefix_text = "Builder 3",
+	colour = "#D9A066", -- light brown/tan
 	privs = builder_privs
 })
 
 ranks.register("builder4", {
-	prefix = "Build 4",
-	colour = "#800080", 
+	prefix = S("Builder 4"),
+	prefix_text = "Builder 4",
+	colour = "#CC99FF", -- light purple
 	privs = builder_privs
 })
 
 ranks.register("builder5", {
-	prefix = "Build 5",
-	colour = "#00FFFF", 
+	prefix = S("Builder 5"),
+	prefix_text = "Builder 5",
+	colour = "#66FFFF", -- bright cyan
 	privs = builder_privs
 })
 
 ranks.register("builder6", {
-	prefix = "Build 6",
-	colour = "#98FF98", 
+	prefix = S("Builder 6"),
+	prefix_text = "Builder 6",
+	colour = "#99FFCC", -- mint
 	privs = builder_privs
 })
 
 ranks.register("builder7", {
-	prefix = "Build 7",
-	colour = "#FFFF00", 
+	prefix = S("Builder 7"),
+	prefix_text = "Builder 7",
+	colour = "#FFFF66", -- bright yellow
 	privs = builder_privs
 })
 
 ranks.register("builder8", {
-	prefix = "Build 8",
-	colour = "#CD853F",
+	prefix = S("Builder 8"),
+	prefix_text = "Builder 8",
+	colour = "#FFCC99", -- peach
 	privs = builder_privs
 })
 
 ranks.register("builder9", {
-	prefix = "Build 9",
-	colour = "#FFD700", 
+	prefix = S("Builder 9"),
+	prefix_text = "Builder 9",
+	colour = "#FFE066", -- gold/yellow
 	privs = builder_privs
 })
 
 ranks.register("builder10", {
-	prefix = "Build 10",
-	colour = "#808080", 
-	privs = {
-		interact = true,
-		shout = true,
-		fly = true,
-	}
+	prefix = S("Builder 10"),
+	prefix_text = "Builder 10",
+	colour = "#CCCCCC", -- light gray
+	privs = builder_privs
 })
-

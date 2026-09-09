@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ranks\n"
+"Language: uk\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Owner"
+msgstr "Власник"
+
+msgid "Moderator"
+msgstr "Модератор"
+
+msgid "Guardian"
+msgstr "Охоронець"
+
+msgid "Staff"
+msgstr "Персонал"
+
+msgid "Builder 1"
+msgstr "Будівельник 1"
+
+msgid "Builder 2"
+msgstr "Будівельник 2"
+
+msgid "Builder 3"
+msgstr "Будівельник 3"
+
+msgid "Builder 4"
+msgstr "Будівельник 4"
+
+msgid "Builder 5"
+msgstr "Будівельник 5"
+
+msgid "Builder 6"
+msgstr "Будівельник 6"
+
+msgid "Builder 7"
+msgstr "Будівельник 7"
+
+msgid "Builder 8"
+msgstr "Будівельник 8"
+
+msgid "Builder 9"
+msgstr "Будівельник 9"
+
+msgid "Builder 10"
+msgstr "Будівельник 10"
+
+msgid "Permission to use /rank chatcommand"
+msgstr "Дозвіл використовувати чат-команду /rank"
+
+msgid "Set a player's rank"
+msgstr "Встановити ранг гравця"
+
+msgid "<player> <new rank>"
+msgstr "<гравець> <новий ранг>"
+
+msgid "Set @1's rank to @2"
+msgstr "Встановити ранг @1 на «@2»"
+
+msgid "Invalid rank"
+msgstr "Недійсний ранг"
+
+msgid "Usage: /rank <player> <rank>"
+msgstr "Використання: /rank <гравець> <ранг>"
+
+msgid "Player @1 was promoted to @2. Congratulations!"
+msgstr "Гравця @1 підвищено до рангу «@2». Вітаємо!"
+
+msgid "*** @1 (Owner) joined the game."
+msgstr "*** @1 (Власник) приєднався до гри."
+
+msgid "*** @1 (Owner) left the game."
+msgstr "*** @1 (Власник) вийшов з гри."
+
+msgid "You cannot ban the Owner."
+msgstr "Ви не можете заблокувати Власника."

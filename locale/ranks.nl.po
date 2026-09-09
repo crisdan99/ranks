@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ranks\n"
+"Language: nl\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Owner"
+msgstr "Eigenaar"
+
+msgid "Moderator"
+msgstr "Moderator"
+
+msgid "Guardian"
+msgstr "Bewaker"
+
+msgid "Staff"
+msgstr "Staff"
+
+msgid "Builder 1"
+msgstr "Bouwer 1"
+
+msgid "Builder 2"
+msgstr "Bouwer 2"
+
+msgid "Builder 3"
+msgstr "Bouwer 3"
+
+msgid "Builder 4"
+msgstr "Bouwer 4"
+
+msgid "Builder 5"
+msgstr "Bouwer 5"
+
+msgid "Builder 6"
+msgstr "Bouwer 6"
+
+msgid "Builder 7"
+msgstr "Bouwer 7"
+
+msgid "Builder 8"
+msgstr "Bouwer 8"
+
+msgid "Builder 9"
+msgstr "Bouwer 9"
+
+msgid "Builder 10"
+msgstr "Bouwer 10"
+
+msgid "Permission to use /rank chatcommand"
+msgstr "Toestemming om het chatcommando /rank te gebruiken"
+
+msgid "Set a player's rank"
+msgstr "De rang van een speler instellen"
+
+msgid "<player> <new rank>"
+msgstr "<speler> <nieuwe rang>"
+
+msgid "Set @1's rank to @2"
+msgstr "De rang van @1 instellen op @2"
+
+msgid "Invalid rank"
+msgstr "Ongeldige rang"
+
+msgid "Usage: /rank <player> <rank>"
+msgstr "Gebruik: /rank <speler> <rang>"
+
+msgid "Player @1 was promoted to @2. Congratulations!"
+msgstr "Speler @1 is gepromoveerd tot @2. Gefeliciteerd!"
+
+msgid "*** @1 (Owner) joined the game."
+msgstr "*** @1 (Eigenaar) is het spel binnengekomen."
+
+msgid "*** @1 (Owner) left the game."
+msgstr "*** @1 (Eigenaar) heeft het spel verlaten."
+
+msgid "You cannot ban the Owner."
+msgstr "Je kunt de Eigenaar niet verbannen."
